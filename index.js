@@ -15,6 +15,7 @@ app.use(cookieParser());
 app.use(requestLogger);
 
 app.use("/api/user", routes.userRouter);
+app.use("/api/url", routes.urlRouter);
 
 app.get("/", (req, res) => {
   res.status(200).json({ message: "Welcome to GuruCool" });
