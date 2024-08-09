@@ -65,7 +65,7 @@ POST /api/user/logout
 
 #### Get all users (Admin)
 ```http
-POST /api/user/
+GET /api/user/
 ```
 
 ### URL
@@ -76,7 +76,7 @@ POST /api/url/shorten
 
 #### Redirector
 ```http
-PUT /api/url/:shortUrl
+GET /api/url/:shortUrl
 ```
 
 ## Tech Stack
